@@ -1,0 +1,11 @@
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: flaskapp-scaler
+spec:
+  scaleTargetRef:
+    kind: ReplicaSet
+    name: flaskapp
+  minReplicas: 5
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 50
