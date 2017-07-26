@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
       - name: flaskapp
-        image: hello-python:v6
+        image: hello-python:v5
         ports:
         - containerPort: 8080

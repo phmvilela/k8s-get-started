@@ -8,4 +8,4 @@ spec:
   capacity:
     storage: 5Gi
   hostPath:
-    path: /mnt/sda1/hostpath-provisioner
+    path: /mnt/sda1/hostpath-provisioner/k8s-get-started
